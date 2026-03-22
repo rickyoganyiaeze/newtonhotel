@@ -1,0 +1,22 @@
+{
+    "name": "Newton Hotels Owerri",
+    "short_name": "Newton Hotels",
+    "description": "Experience luxury and comfort at Newton Hotels in Owerri, Imo State. Book your stay today.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#0a1628",
+    "theme_color": "#c9a962",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "logo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

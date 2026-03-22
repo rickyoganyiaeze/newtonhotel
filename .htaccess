@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# 1. Force HTTPS (Secure connection)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Force www (Optional: change 'yourwebsite.com' to your domain)
+# This ensures people searching "newton hotel" go to the same URL version
+RewriteCond %{HTTP_HOST} ^yourwebsite\.com [NC]
+RewriteRule ^(.*)$ https://www.yourwebsite.com/$1 [L,R=301]
+
+# 3. Custom 404 Error Page (Create a simple 404.html file for this)
+ErrorDocument 404 /index.html

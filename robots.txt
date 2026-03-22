@@ -1,0 +1,7 @@
+# robots.txt for Newton Hotels
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.newtonhotel.com.ng/sitemap.xml
