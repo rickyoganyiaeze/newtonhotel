@@ -3,18 +3,17 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
         
   <url>
-    <loc>https://www.newtonhotel.com.ng/</loc>
-    <lastmod>2024-05-20</lastmod>
+    <loc>https://newtonhotel.com.ng/</loc>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     
-    <!-- Tell Google about your key room images for Image SEO -->
     <image:image>
-       <loc>https://www.newtonhotel.com.ng/room1.jpeg</loc>
+       <loc>https://newtonhotel.com.ng/room1.jpeg</loc>
        <caption>Classic 20l Room at Newton Hotel Owerri</caption>
     </image:image>
     <image:image>
-       <loc>https://www.newtonhotel.com.ng/room2.jpeg</loc>
+       <loc>https://newtonhotel.com.ng/room2.jpeg</loc>
        <caption>Deluxe Room at Newton Hotel</caption>
     </image:image>
   </url>
